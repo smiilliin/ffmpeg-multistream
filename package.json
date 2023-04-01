@@ -6,7 +6,15 @@
   "scripts": {
     "test": "ts-mocha test/index.spec.ts --timeout 10000"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smiilliin/ffmpeg-multistream"
+  },
+  "keywords": [
+    "ffmpeg",
+    "fluent-ffmpeg",
+    "stream"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
