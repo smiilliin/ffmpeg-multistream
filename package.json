@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-multistream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "FFMPEG input multistream",
   "main": "dist/multistream.js",
   "scripts": {
