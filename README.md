@@ -41,8 +41,5 @@ ffmpeg()
   .audioCodec("copy")
   .output("out2.mp4")
   .addOptions(["-map", "0:v", "-map", "1:a", "-y"])
-  .on("end", () => {
-    resolve();
-  })
   .run();
 ```
