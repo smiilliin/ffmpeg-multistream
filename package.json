@@ -1,0 +1,20 @@
+{
+  "name": "ffmpeg-multistream",
+  "version": "1.0.0",
+  "description": "FFMPEG input multistream",
+  "main": "dist/multistream.js",
+  "scripts": {
+    "test": "ts-mocha test/index.spec.ts --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
+    "fluent-ffmpeg": "^2.1.2",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.0.2"
+  }
+}
